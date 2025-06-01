@@ -30,6 +30,7 @@ This project implements a scalable, model-based recommendation system using Spar
   >=3 and <4        764
   >=4                 0
   ```
+> GitHub cannot preview `test_output.csv` due to its size. A smaller `sample_output.csv` is included for convenience.
 
 ---
 
@@ -52,7 +53,8 @@ spark-submit competition.py input/ input/yelp_val.csv output/test_output.csv
 ## Repository Contents
 
 - `competition.py`: Spark/XGBoost pipeline (feature extraction + model training)
-- `test_output.csv`: Sample prediction file
+- `test_output.csv`: Full prediction output file (too large to preview)
+- `sample_output.csv`: First 20 rows for easy viewing
 - *(Data files are excluded due to size; see below)*
 
 ---
